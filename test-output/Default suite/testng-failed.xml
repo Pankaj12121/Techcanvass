@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.testNG.ParallelTests.ParallelTest">
+      <class name="com.demo.testNG.parameters.ParametersInTestNG">
         <methods>
-          <include name="getFirefox"/>
+          <include name="parameters"/>
         </methods>
-      </class> <!-- com.demo.testNG.ParallelTests.ParallelTest -->
+      </class> <!-- com.demo.testNG.parameters.ParametersInTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
